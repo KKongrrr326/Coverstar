@@ -1,0 +1,91 @@
+/* layout.css */
+
+header {
+    position: relative;
+    height: 128px;
+}
+
+header .container {
+    height: 100%;
+}
+
+header .menu-btn {
+    display: none;
+}
+
+header .logo {
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    position: absolute;
+}
+
+header .logo img {
+    display: block;
+}
+
+header .sch-ab {
+    position: absolute;
+    top: 50%;
+    left: 290px;
+    transform: translateY(-50%);
+}
+
+header .searchBox {
+    width: 492px;
+    position: relative;
+}
+
+header .searchBox input {
+    width: 100%;
+    border-radius: 8px;
+    background: transparent;
+    border: 1px solid #b0b5bc;
+    padding: 10px 20px 10px 54px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header .searchBox button {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+header nav {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+header nav ul {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header nav ul li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 16px;
+}
+
+header nav ul li a {
+    color: #4b5056;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+header nav .attend-btn {
+    background: #ef5185;
+    border-radius: 8px;
+    color: #fff;
+    padding: 13px 20px;
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    border: none;
+    font-weight: bold;
+    margin-left: 16px;
+}

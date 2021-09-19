@@ -1,0 +1,109 @@
+/* common thumbnail */
+
+.tb-square {
+    width: 100%;
+}
+
+.tb-square .thum-box {
+    height: 204px;
+    position: relative;
+    cursor: pointer;
+}
+
+.tb-square .thum-box .thum-img {
+    width: 100%;
+    height: 156px;
+    border-radius: 8px 8px 0 0;
+    display: block;
+    object-fit: cover;
+}
+
+.tb-square .thum-box .support {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 156px);
+}
+
+.tb-square .thum-box .support {
+    font-size: 0;
+}
+
+.tb-square .thum-box .support .cm-box {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    height: 100%;
+    padding: 11px 0;
+    text-align: center;
+}
+
+.tb-square .thum-box .support .cm-box p {
+    color: #fff;
+    font-size: 20px;
+}
+
+.tb-square .thum-box .support .applicant {
+    background: #ef5185;
+    border-radius: 0 0 0 8px;
+}
+
+.tb-square .thum-box .support .vote-btn {
+    background: rgba(239, 81, 133, 0.6);
+}
+
+.tb-square .thum-box .support .vote-btn button {
+    display: inline-block;
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+}
+
+.tb-square .thum-box .support .vote-btn {
+    border-radius: 0 0 8px 0;
+}
+
+.tb-square .thum-box .support .vote-btn button img {
+    width: 100%;
+    height: 100%;
+}
+
+.tb-square .thum-box .support .vote-btn p {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.tb-square .video-info {
+    text-align: center;
+    margin-top: 16px;
+}
+
+.tb-square .video-info .vd-song {
+    margin-bottom: 4px;
+}
+
+.tb-square .video-info .vd-song .song-tit {
+    font-size: 20px;
+    color: #222529;
+    font-weight: 800;
+    margin-bottom: 4px;
+}
+
+.tb-square .video-info .vd-song .song-nm {
+    font-size: 16px;
+    color: #6f757c;
+}
+
+.tb-square .video-info .play-status ul {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.tb-square .video-info .play-status li {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    color: #b0b5bc;
+}

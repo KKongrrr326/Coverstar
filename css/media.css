@@ -1,0 +1,220 @@
+/* media.css */
+
+@media only screen and (min-width:320px) and (max-width: 360px) {
+    html {
+        font-size: 62.5%;
+    }
+}
+
+@media only screen and (min-width:361px) and (max-width: 375px) {
+    html {
+        font-size: 62.5%;
+    }
+}
+
+@media only screen and (max-width: 412px) {
+    html {
+        font-size: 62.5%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    html {
+        font-size: 62.5%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 62.5%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    html {
+        font-size: 62.5%;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    html {
+        font-size: 62.5%;
+    }
+    .wrap {
+        overflow: hidden;
+    }
+    .container {
+        max-width: 100%;
+    }
+    header {
+        height: 60px;
+    }
+    header .menu-btn {
+        position: absolute;
+        top: 50%;
+        left: 20px;
+        transform: translateY(-50%);
+        display: inline-block;
+    }
+    header .logo {
+        display: none;
+    }
+    header .sch-ab {
+        left: 60px;
+        width: calc(100% - 165px);
+    }
+    header .searchBox {
+        width: 100%;
+    }
+    header .searchBox input {
+        font-size: 14px;
+        padding: 4px 10px 4px 28px;
+        border-radius: 4px;
+    }
+    header .searchBox button {
+        width: 16px;
+        height: 16px;
+    }
+    header nav {
+        right: 20px;
+    }
+    header nav ul {
+        display: none;
+    }
+    header nav .attend-btn {
+        font-size: 14px;
+        padding: 4px 8px;
+        border-radius: 4px;
+    }
+    /* index */
+    .main-visual {
+        height: 256px;
+    }
+    .main-visual .bg-filter {
+        background: linear-gradient(to left, rgba(239, 81, 133, 0.2)0%, rgba(239, 81, 133, 1) 80%);
+    }
+    .main-visual .visual-txt {
+        left: 23px;
+    }
+    .main-visual h1 {
+        font-size: 24px;
+        margin-bottom: 8px;
+    }
+    .main-visual .btn-area input {
+        font-size: 14px;
+        padding: 4px 8px;
+        border-radius: 4px;
+        margin-right: 7px;
+    }
+    #main .sec-tit {
+        font-size: 16px;
+        margin-bottom: 24px;
+    }
+    #main .live-contest {
+        padding: 40px 0;
+    }
+    #main .live-contest .mySwiper {
+        margin: 0 0 65px 0;
+    }
+    #main .past-contest .past-video {
+        display: block;
+        font-size: 0;
+    }
+    #main .live-contest .swiper-slide {
+        padding: 0 8px;
+    }
+    #main .all-view a {
+        font-size: 12px;
+        border: none;
+        padding: 0;
+    }
+    /* common thumbnail */
+    .tb-square .thum-box {
+        height: 116px;
+    }
+    .tb-square .thum-box .thum-img {
+        height: 84px;
+    }
+    .tb-square .video-info .vd-song .song-tit {
+        font-size: 14px;
+    }
+    .tb-square .video-info .vd-song .song-nm {
+        font-size: 14px;
+    }
+    .tb-square .video-info .play-status li {
+        font-size: 11px;
+    }
+    .tb-square .thum-box .support {
+        height: calc(100% - 84px);
+    }
+    .tb-square .thum-box .support .cm-box {
+        padding: 8px 0;
+    }
+    .tb-square .thum-box .support .cm-box p {
+        font-size: 14px;
+    }
+    .tb-square .thum-box .support .vote-btn button {
+        width: 16px;
+        height: 16px;
+    }
+    .tb-square .thum-box .support .vote-btn p {
+        margin-left: 4px;
+    }
+    #main .past-contest {
+        padding: 40px 20px;
+    }
+    #main .past-contest .tb-square {
+        padding: 0 0 16px 0;
+        flex: unset;
+        display: inline-block;
+        width: 50%;
+    }
+    #main .past-contest .tb-square:nth-child(2n) {
+        padding-left: 8px;
+    }
+    #main .past-contest .tb-square:nth-child(2n-1) {
+        padding-right: 8px;
+    }
+    #main .past-contest .past-video {
+        margin-bottom: 16px;
+    }
+    /* swiper */
+    .swiper-slide-active .thum-box {
+        height: 148px !important;
+    }
+    .swiper-slide-active .thum-img {
+        height: 116px !important;
+    }
+    .swiper-slide-active .tb-square .thum-box .support {
+        height: calc(100% - 116px) !important;
+    }
+    .swiper-slide-active .tb-square .thum-box .support .cm-box {
+        padding: 6px 0;
+    }
+    .swiper-slide-active .tb-square .thum-box .support .cm-box p {
+        font-size: 16px;
+    }
+    .swiper-slide-prev,
+    .swiper-slide-next {
+        width: auto !important;
+    }
+    .swiper-slide-active {
+        width: auto !important;
+        /* padding: 0 16px !important; */
+    }
+    .swiper-button-next,
+    .swiper-button-prev {
+        top: auto;
+        bottom: 40px;
+        width: 16px;
+        height: 16px;
+    }
+    .swiper-button-next,
+    .swiper-rtl .swiper-button-prev {
+        right: 75px;
+    }
+    .swiper-button-prev,
+    .swiper-rtl .swiper-button-next {
+        left: 75px;
+    }
+}
