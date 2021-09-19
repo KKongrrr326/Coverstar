@@ -96,6 +96,10 @@
     color: #6f757c;
 }
 
+.tb-square .video-info .play-status {
+    font-size: 0;
+}
+
 .tb-square .video-info .play-status ul {
     display: inline-block;
     vertical-align: middle;
@@ -112,7 +116,7 @@
     margin: 0 8px;
 }
 
-.tb-square .video-info .play-status li {
+.tb-square .video-info .play-status ul li {
     display: inline-block;
     vertical-align: middle;
     font-size: 14px;

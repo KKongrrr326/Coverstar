@@ -220,6 +220,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    outline: none;
     color: var(--swiper-navigation-color, var(--swiper-theme-color))
 }
 
