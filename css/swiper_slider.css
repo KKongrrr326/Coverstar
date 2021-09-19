@@ -716,11 +716,24 @@ button.swiper-pagination-bullet {
     height: calc(100% - 210px);
 }
 
-.swiper-slide-prev,
+
+/* .swiper-slide-prev,
 .swiper-slide-next {
     width: calc((100% - 40%)/2) !important;
 }
 
 .swiper-slide-active {
     width: 40% !important;
+} */
+
+.swiper-slide-prev {
+    padding: 0 15px 0 95px;
+}
+
+.swiper-slide-next {
+    padding: 0 95px 0 15px;
+}
+
+.swiper-slide-active {
+    padding: 0 15px;
 }

@@ -101,6 +101,17 @@
     vertical-align: middle;
 }
 
+.tb-square .video-info .play-status ul:first-child::after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 2px;
+    height: 2px;
+    background: #b0b5bc;
+    border-radius: 50%;
+    margin: 0 8px;
+}
+
 .tb-square .video-info .play-status li {
     display: inline-block;
     vertical-align: middle;

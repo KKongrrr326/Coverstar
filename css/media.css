@@ -141,6 +141,9 @@
     .tb-square .video-info .vd-song .song-nm {
         font-size: 14px;
     }
+    .tb-square .video-info .play-status ul:first-child::after {
+        margin: 0 4px;
+    }
     .tb-square .video-info .play-status li {
         font-size: 11px;
     }
@@ -196,10 +199,10 @@
     }
     .swiper-slide-prev,
     .swiper-slide-next {
-        width: auto !important;
+        width: auto;
     }
     .swiper-slide-active {
-        width: auto !important;
+        width: auto;
         /* padding: 0 16px !important; */
     }
     .swiper-button-next,

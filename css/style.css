@@ -97,11 +97,12 @@
 #main .live-contest .mySwiper {
     overflow: hidden;
     margin: 0 95px 72px;
+    margin: 0 0 72px 0;
 }
 
 #main .live-contest .swiper-slide {
     text-align: center;
-    padding: 0 15px;
+    /* padding: 0 15px; */
 }
 
 #main .all-view {
