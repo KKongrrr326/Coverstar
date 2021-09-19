@@ -144,7 +144,7 @@
     .tb-square .video-info .play-status ul:first-child::after {
         margin: 0 4px;
     }
-    .tb-square .video-info .play-status li {
+    .tb-square .video-info .play-status ul li {
         font-size: 11px;
     }
     .tb-square .thum-box .support {
